@@ -1,0 +1,17 @@
+{
+  "name": "twitter-express",
+  "version": "0.1.0",
+  "description": "basic express/handlebars app with twitter API",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.1.1",
+    "express3-handlebars": "~0.5.0",
+    "ls": "~0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matthew hughes",
+  "license": "ISC"
+}
