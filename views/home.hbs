@@ -1,10 +1,9 @@
-<h1>GREETINGS</h1>
+{{#with tweets.[0]}}   
+	<p><img src="{{user.profile_image_url}}" />{{user.screen_name}}</p>
+{{/with}}
 
-<p>{{test}}</p>
-
-<p>{{count}}</p>
-
-
+<ul>
 {{#each tweets}}
-	<p>{{id}} : {{tweet}}
+	<li>{{text}}</li>
 {{/each}}
+</ul>
